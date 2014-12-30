@@ -16,7 +16,7 @@ public class Bank
 boolean withDraw(User a)
 {
 	double num=0.0;
-	System.out.print("请选择取款金额：");
+	System.out.print("请选择取款的金额：");
 	System.out.println("1.100 2.300 3.500 4.1000 5"
 			+ ".1500 6.其他金额");
 	Scanner b=new Scanner(System.in);
